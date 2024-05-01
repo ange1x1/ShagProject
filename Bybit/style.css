@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.big-cont{
+    background-color: black;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inp-search{
+    background-color: #262830;
+    border: 0;
+    color: white;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    justify-content: space-between;
+    background-color: #2f3038;
+}
+.btn{
+    background-color: #2f3038;
+    color: white;
+    border: 0;
+}
+.chart{
+    width: 70%;
+}
+.img-bell{
+    height: 30px;
+}
+.img-globe{
+    height: 30px;
+}
+.img-settings{
+    height: 30px;
+}
+.crypto{
+    height: 30px;
+}
