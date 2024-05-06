@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="big-cont">
+    <div class="container">
+        <div class="header-container">
+            <div class="header-left">
+                <img class="crypto" src="./imgs/cryptocurrencies.png" alt="#">
+                <button class="btn trade">Trade</button>
+                <button class="btn deri">Derivatives</button>
+                <input class="inp-search" type="text" placeholder="Search crypto">
+            </div>
+            <div class="header-right">
+                <button class="btn assets">Assets</button>
+                <button class="btn orders">Orders</button>
+                <button class="btn imgs"><img class="img-bell" src="./imgs/bell.png" alt="#"></button>
+                <button class="btn imgs"><img class="img-globe" src="./imgs/globe.png" alt="#"></button>
+                <button class="btn imgs" ><img class="img-settings" src="./imgs/settings.png" alt="#"></button>
+            </div>
+        </div>
+        <div class="center hide">
+            <div class="chart-pos">
+                <div class="priceAndAnother">
+
+                </div>
+                <div class="chart">
+                </div>
+                <div class="right-money">
+                    <h3 class="wallet">Balance:</h3>
+                    <div class="margindiv">
+                        <button class="margin-btn">Cross</button>
+                        <h3 class="leverage">Leverage:50x</h3>
+                        <input class="inp-lev" type="range" min="0" max="100" step="1">
+                    </div>console.log(data1.prices[14][1])
+                    <div>
+                        <h2 class="text-price">Market price:</h2>
+                    </div>
+                    <div>
+                        <h2 class="text-orders">Order Qty(USDT):</h2>
+                        <input class="orderQtyVal" type="number">
+                    </div>
+                    <div>
+                        <h3 class="orderValue">Order Value:</h3>
+                    </div>
+                    <div class="btndiv">
+                        <button class="btn-long">Buy/Long</button>
+                        <button class="btn-short">Sell/Short</button>
+                    </div>
+                    <button class="btn-show">Show all positions</button>
+                </div>
+            </div>
+            <div class="pos1">
+                
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

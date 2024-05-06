@@ -1,0 +1,163 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pos{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: white 1px solid;
+    border-radius: 10px;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+.btn-show{
+    margin-top: 10px;
+    color: white;
+    height: 50px;
+    background-color: #25282c;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.pos1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.curtext{
+    color: gray;
+}
+.big-cont{
+    background-color: black;
+}
+.hide{
+    display: none;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.text-price{
+    color: gray;
+    font-size: 100%;
+}
+.right-money{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.text-orders{
+    color: gray;
+    font-size: 100%;
+}
+.inp-search{
+    background-color: #262830;
+    border: 0;
+    color: white;
+    width: 40%;
+}
+.orderPriceVal{
+    background-color: #25282c;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    text-align: left;
+}
+.orderQtyVal{
+    background-color: #25282c;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    text-align: left;
+}
+.orderValue{
+    color: gray;
+}
+.btn-long{
+    color: white;
+    height: 50px;
+    background-color: #20b26c;
+    text-align: center;
+    border: 0;
+    width: 45%;
+    border-radius: 10px;
+}
+.btn-short{
+    color: white;
+    height: 50px;
+    background-color: #ef454a;
+    text-align: center;
+    border: 0;
+    width: 45%;
+    border-radius: 10px;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    justify-content: space-between;
+    background-color: #2f3038;
+}
+.margindiv{
+    display: flex;
+    flex-direction: column;
+}
+.wallet{
+    color: gray;
+}
+.chart-pos{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+.leverage{
+    color: gray;
+}
+.btn{
+    background-color: #2f3038;
+    color: white;
+    border: 0;
+    
+}
+.btndiv{
+    display: flex;
+    justify-content: space-between;
+}
+.margin-btn{
+    color: white;
+    background-color: #25282c;
+    border-radius: 10px;
+    border: 0;
+    height: 32px;
+    text-align: center;
+}
+.chart{
+    width: 70%;
+}
+.img-bell{
+    height: 30px;
+}
+.img-globe{
+    height: 30px;
+}
+.img-settings{
+    height: 30px;
+}
+.crypto{
+    height: 30px;
+}
